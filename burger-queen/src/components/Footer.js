@@ -15,10 +15,10 @@ class Footer extends React.Component {
               </div>
                 <InputGroup className="InputGroup" size="lg" type="text"><Input/></InputGroup> <br />
             </div>
-         
-            <Button className="btn btn-outline" color="success" block>
-              <Link to="/TablaComanda"> Confirmar</Link>
-            </Button>
+            <Link to="/TablaComanda">Confirmar
+            <Button className="btn btn-outline" color="success" block></Button>
+            </Link>
+            
           </div>
         );
     }
