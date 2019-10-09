@@ -46,7 +46,7 @@ class Form extends React.Component {
                 </InputGroup>
                 <br />
                 <br />
-                    <Button className="btn btn-outline" color="success" block 
+                    <Button className="btn btn-outline" color="success"
                         type="submit"
                         onSubmit={this.onSubmit} block>
                           Registrar
