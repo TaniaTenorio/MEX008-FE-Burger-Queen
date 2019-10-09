@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 
 import '../styles/Footer.css';
 import { Button, Label, InputGroup, Input } from 'reactstrap';
@@ -16,8 +16,13 @@ class Footer extends React.Component {
                 <InputGroup className="InputGroup" size="lg" type="text"><Input/></InputGroup> <br />
             </div>
          
-            <Button className="btn btn-outline" color="success" block>
-              <Link to="/TablaComanda"> Confirmar</Link>
+            <Button 
+            className="btn btn-outline" 
+            color="success" block
+            onClick={this.props.confirmHandler}>
+              
+            Confirmar
+
             </Button>
           </div>
         );

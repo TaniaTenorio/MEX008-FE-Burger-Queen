@@ -1,6 +1,8 @@
 import React from 'react';
+
 import Buttons from '../components/Buttons';
 import "../styles/EnvioOrden.css";
+
 import { Link } from 'react-router-dom';
 
 class EnvioOrden extends React.Component {
