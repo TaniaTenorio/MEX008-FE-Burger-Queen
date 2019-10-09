@@ -27,7 +27,7 @@ class Form extends React.Component {
         //console.log(this.props);
         
         return(
-            <form onSubmit={this.onSubmit}>
+            <form onSubmit={this.onSubmit} className="form-registro">
                
                 <InputGroup className="InputGroup" size="lg">
                     <Input
